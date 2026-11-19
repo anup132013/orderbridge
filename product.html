@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products - OrderBridge</title>
+
+<style>
+body{
+font-family:Arial;
+background:#f4f7f5;
+margin:0;
+}
+
+header{
+background:#0f5132;
+color:white;
+padding:15px;
+text-align:center;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,.1);
+text-align:center;
+}
+
+button{
+background:#0f5132;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+a{
+display:block;
+padding:20px;
+text-decoration:none;
+color:#0f5132;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>Product Catalog</h1>
+</header>
+
+<div class="products">
+
+<div class="card">
+<h3>Sunrise Tea</h3>
+<p>₹250 / Box</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>Premium Rice</h3>
+<p>₹1800 / Sack</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>Fresh Oil</h3>
+<p>₹1200 / Case</p>
+<button>Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>Sugar</h3>
+<p>₹650 / Bag</p>
+<button>Add to Cart</button>
+</div>
+
+</div>
+
+<a href="index.html">← Back Home</a>
+
+</body>
+</html>
